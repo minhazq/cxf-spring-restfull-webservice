@@ -62,10 +62,9 @@
 </ol>
 <p>You will see the following page in the eclipse:</p>
 <img src="images/run-on-server-firstime.JPG" width="596" height="609" alt="" title="" /> 
-<p>
-<br>As you can see that the url is : http://localhost:8080/test/But actually the url should be http://localhost:8080/<u><i>{project name}</i></u></br>
-<br> The reason it is showing like that is that after completing the code i refacotre the name and forgot to change the context root in eclipse</br>
-<br> Here it is how you can change the root context</br>
+<p>As you can see that the url is : http://localhost:8080/test/But actually the url should be http://localhost:8080/<u><i>{project name}</i></u>
+The reason it is showing like that is that after completing the code i refacotre the name and forgot to change the context root in eclipse
+Here it is how you can change the root context
 <br> <font color="#FF0000">Select project --> right click--> select Web Project Settings--> change the name</font> <br>
 <br>
 <img src="images/Web-project-seeting.JPG" width="670" height="696" alt="" title="" />
@@ -78,8 +77,8 @@
 <p><font color="#000000">As per configuration CXF will load the transport Servlet and also CXF will server its service as per following mapping configuration </font></p>
 <p> <img src="images/web-xml-mapping.JPG" width="351" height="84" alt="" title="" /></p>
 <p><font color="#000000">Which means CXF will serve if the url pattern starts with /services. If you do not put /services then it will act as regular dynamic web application.
-It will not as restfull webservice. Thats why we see when http://localhost:8080 has entered index.jsp starts loads up. If you want to work with restfull service then
-you have to put http:localhost:8080/{project-name}/services .</font></p>
+It will not as restfull webservice. Thats why we see when <u><i>http://localhost:8080</i></u> has entered <u>index.jsp</u> starts loads up. If you want to work with restfull service then
+you have to put <b><i><u><font color="#FF0080">http:localhost:8080/{project-name}/services</font></u></i></b> .</font></p>
 <p>After that CXF will looking for bean.xml file inside WEB-INF folder. And the following bean and ref configuraton it will read the class and do according the annotation you
 provided in the class.</p>
 
