@@ -70,9 +70,21 @@
 <br>
 <img src="images/Web-project-seeting.JPG" width="670" height="696" alt="" title="" />
 </br>
+<p>
+<h3><a id="create web-app project" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><u>Fourth Step : Understanding the <font color="#004000"><b><u>WORKFLOW</u></b></font></u>.</h3>
+</p>
+<p><font color="#000000"> First Web.xml file will be loaded by Tomcat and then CXF will read the following configuration file :</font></p>
+<p><img src="images/web-xml.JPG" width="498" height="323" alt="" title="" /></p>
+<p><font color="#000000">As per configuration CXF will load the transfer Servlet and also CXF will server its service as per following mapping configuration </font></p>
+<p> <img src="images/web-xml-mapping.JPG" width="351" height="84" alt="" title="" /></p>
+<p><font color="#000000">Which means CXF will serve if the url pattern starts with /services. If you do not put /services then it will act as regular dynamic web application.
+It will not as restfull webservice. </font></p>
+<p>After that CXF will looking for bean.xml file inside WEB-INF folder. And the following bean and ref configuraton it will read the class and do according the annotation you
+provided in the class.</p>
 
 
 </p>
+
 <p></font>
 
 
