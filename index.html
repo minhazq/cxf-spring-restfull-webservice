@@ -62,9 +62,9 @@
 </ol>
 <p>You will see the following page in the eclipse:</p>
 <img src="images/run-on-server-firstime.JPG" width="596" height="609" alt="" title="" /> 
-<p>As you can see that the url is : http://localhost:8080/test/But actually the url should be http://localhost:8080/<u><i>{project name}</i></u>
+<p>As you can see that the url is : http://localhost:8080/test/ But actually the url should be http://localhost:8080/<u><i>{project name}</i></u>
 The reason it is showing like that is that after completing the code i refacotre the name and forgot to change the context root in eclipse
-Here it is how you can change the root context
+Here it is how you can change the root context:
 <br> <font color="#FF0000">Select project --> right click--> select Web Project Settings--> change the name</font> <br>
 <br>
 <img src="images/Web-project-seeting.JPG" width="670" height="696" alt="" title="" />
@@ -79,12 +79,9 @@ Here it is how you can change the root context
 <p><font color="#000000">Which means CXF will serve if the url pattern starts with /services. If you do not put /services then it will act as regular dynamic web application.
 It will not as restfull webservice. Thats why we see when <u><i>http://localhost:8080</i></u> has entered <u>index.jsp</u> starts loads up. If you want to work with restfull service then
 you have to put <b><i><u><font color="#FF0080">http:localhost:8080/{project-name}/services</font></u></i></b> .</font></p>
-<p>After that CXF will looking for bean.xml file inside WEB-INF folder. And the following bean and ref configuraton it will read the class and do according the annotation you
+<p>After that CXF will be looking for bean.xml file inside WEB-INF folder. And the following bean and ref configuraton it will read the class and do according the annotation you
 provided in the class.</p>
-
-
-</p>
-
+<p>F<font color="#FFA019"><b><i>or bean.xml and web.xml go to the project and take a look at that sample</i></b></font></p>
 <p></font>
 
 
