@@ -1,1 +1,6 @@
-com\mq\restfull\services\ProbablyPrimeService.class
+com/mq/restfull/services/ProductServiceImpl.class
+com/mq/restfull/services/Product.class
+com/mq/restfull/services/ProbablyPrimeService.class
+com/mq/restfull/services/Test.class
+com/mq/restfull/services/ProductService.class
+com/mq/restfull/services/ProductImpl.class
