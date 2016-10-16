@@ -8,8 +8,7 @@ public class ProductImpl implements Product{
 	private String prod_name;
 	private String prod_category;
 	private double prod_price;
-	
-	
+
 	
 	public String getProd_name() {
 		return prod_name;
